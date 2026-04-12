@@ -1,3 +1,14 @@
+# 🃏 Poker Club System | Texas Hold'em Poker Source Code | Online Poker Platform
+
+🔥 Poker club system with agent & table management  
+🔥 Online multiplayer poker platform (real-time)  
+🔥 Commercial-ready poker source code  
+🔥 Supports Web / iOS / Android  
+
+Poker club source code for building your own online poker business, including club system, table management, and multiplayer engine.
+
+扑克俱乐部源码 / 德州扑克俱乐部系统 / Poker club system / Casino software
+
 # Poker-Club
 Texas Hold'em source code, Texas Hold'em Poker Club， 德州源码，德州游戏源码，德州扑克源码，德州撲克源碼/德州源碼，有俱樂部(GGclub)+朋友局+聯盟+多個德州遊戲玩法，程式碼穩定，產品成熟，Unity+C++版APP雙端，線上成功運營過版本，支援中文、英文、韓文、泰文、馬來西亞文等多種語言版本。TG：@fox_lovemyself
 邮箱：zyue02561@gmail.com
