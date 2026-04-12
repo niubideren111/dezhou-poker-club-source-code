@@ -5,9 +5,15 @@
 🔥 支持俱乐部 / 朋友局 / 联盟模式  
 🔥 支援俱樂部 / 好友局 / 聯盟模式  
 
-💰 Build your own poker club and generate stable revenue  
-💰 打造自己的德州俱乐部平台，实现持续盈利  
-💰 打造自己的德州俱樂部平台，實現穩定盈利  
+
+🔥 Production-ready Texas Hold'em Poker Club Platform ｜ 生产级德州扑克俱乐部平台 ｜ 生產級德州撲克俱樂部平台  
+🔥 Real-time multiplayer & multi-device support ｜ 实时多人，多端支持 ｜ 即時多人，多端支持  
+🔥 Full source code for private club and tournament system ｜ 俱乐部和比赛系统完整源码 ｜ 俱樂部及比賽系統完整源碼  
+🔥 Start your profitable poker club business in days ｜ 几天即可搭建盈利扑克俱乐部平台 ｜ 幾天即可搭建盈利扑克俱樂部平台  
+
+Build your own complete online poker club with full control, revenue system, and scalable architecture.  
+几天即可搭建完整在线扑克俱乐部平台，支持盈利和定制开发。  
+幾天即可搭建完整線上撲克俱樂部平台，支援盈利與客製化。
 
 ---
 
@@ -41,12 +47,14 @@ You can use this project to build:
 
 ## ✨ Features | 核心功能 | 功能特色
 
-* ✅ Poker club system ｜ 俱乐部系统 ｜ 俱樂部系統
-* ✅ Agent / affiliate system ｜ 代理体系 ｜ 代理系統
-* ✅ Table management ｜ 牌桌管理 ｜ 牌桌管理
-* ✅ Real-time multiplayer (WebSocket) ｜ 实时对战 ｜ 即時對戰
-* ✅ High-performance game engine ｜ 高性能引擎 ｜ 高效能引擎
-* ✅ Stable & scalable ｜ 稳定可扩展 ｜ 穩定可擴展
+- ✅ Full source code (Server + Client) ｜ 完整源码 ｜ 完整源碼  
+- ✅ Private Club / Room system ｜ 私人俱乐部 / 房间系统 ｜ 私人俱樂部 / 房間系統  
+- ✅ Real-time multiplayer (WebSocket) ｜ 实时多人 ｜ 即時對戰  
+- ✅ High-performance C++ engine ｜ 高性能游戏引擎 ｜ 高效能引擎  
+- ✅ Scalable architecture ｜ 可扩展 ｜ 可擴展  
+- ✅ Tournament system & SNG / MTT ｜ 比赛系统 & SNG / MTT ｜ 比賽系統 & SNG / MTT  
+- ✅ Payment & Rake system ｜ 支付与抽水系统 ｜ 支付與抽水系統  
+- ✅ Admin panel for management ｜ 后台管理 ｜ 後台管理  
 ## ♣️ Club System Features | 俱乐部玩法 | 俱樂部玩法
 
 - 🏠 Create private poker clubs（创建俱乐部）  
@@ -77,7 +85,15 @@ You can use this project to build:
 👉 Designed for long-term profit  
 👉 支持长期盈利  
 👉 支援長期盈利  
+## 🧩 System Modules | 系统模块 | 系統模組
 
+- 🎮 Game Engine (核心游戏逻辑 / 核心邏輯)  
+- 📱 Web & Mobile Client (多端客户端)  
+- 🏠 Club / Private Room System (俱乐部 / 私人房间系统)  
+- 🏆 Tournament & SNG / MTT System (比赛系统 & SNG / MTT 系统)  
+- 💰 Payment & Rake System (支付与抽水系统)  
+- 🛠 Admin Panel (后台管理系统)  
+- 📊 Statistics & Analytics (数据统计与分析) 
 ## 🎯 What You Get | 你将获得 | 您將獲得
 
 * Full source code ｜ 完整源码 ｜ 完整源碼
