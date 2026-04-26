@@ -2,7 +2,7 @@
 ♠️ Poker Club System (GG Club Style) | Texas Hold'em Club Platform  
 
 🔥 Real poker club system with private tables & friend games  
-🔥 支持俱乐部 / 朋友局 / 联盟模式  
+🔥 支持俱乐部 / 朋友局 / 联盟模式/德州牛牛+8个德州玩法/支持中文、英文、韓文、泰文、馬來西亞文等多種語言版本
 🔥 支援俱樂部 / 好友局 / 聯盟模式  
 
 
