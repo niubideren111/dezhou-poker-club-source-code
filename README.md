@@ -1,3 +1,59 @@
+# 🃏 德州扑克源码 | 德州俱乐部源码 | 德州扑克俱乐部系统
+
+**德州源码 · 德州游戏源码 · 德州MTT源码 · 德州联盟源码**  
+Unity + C++ 德州扑克俱乐部完整源码，支持**俱乐部 + 联盟 + 朋友局 + 金币场 + 锦标赛**，线上运营经验版本
+
+**Texas Hold'em Poker Club Source Code** | **Multiplayer Poker Club System** | Unity + C++ Ready
+
+[![Stars](https://img.shields.io/github/stars/niubideren111/Texas-Holdem-Poker-Club-Source.svg)](https://github.com/niubideren111/Texas-Holdem-Poker-Club-Source/stargazers)
+[![Forks](https://img.shields.io/github/forks/niubideren111/Texas-Holdem-Poker-Club-Source.svg)](https://github.com/niubideren111/Texas-Holdem-Poker-Club-Source/network/members)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+---
+
+## ✨ 项目核心亮点
+
+- **完整俱乐部系统**：支持 GGclub 风格俱乐部、联盟、朋友局、私人局
+- **多种玩法**：经典德州、百人德州、德州牛仔、SNG、MTT 锦标赛等
+- **双端技术**：Unity 客户端 + C++ 服务端，高并发、服务器权威架构
+- **多语言支持**：简中、繁中、英文、韩语、泰语、马来语等多语言版本
+- **商业功能**：充值、抽水、会员系统、排名奖励、AI Bot
+- **稳定可靠**：曾线上成功运营版本，代码结构清晰
+
+> **⚠️ 重要声明**：本项目**仅供学习和研究使用**，严格禁止用于任何真实货币赌博。商业使用请自行遵守当地法律法规，作者不承担任何法律责任。
+
+---
+
+## 📸 项目截图（真实界面展示）
+
+（请确保已上传图片到 `screenshots/` 文件夹，并使用正确的文件名）
+
+![德州扑克俱乐部大厅](screenshots/3C28D20DD94135BAA0E3E6245FB541B8.jpg)
+
+![牌桌对战界面](screenshots/40A0D8F11618D18FC71051F2B6AB23B5.jpg)
+
+![MTT锦标赛](screenshots/45F25321DE41CEEDEC3CF7183FD3C675.jpg)
+
+![俱乐部管理](screenshots/57AD8C3F3D1FEDBD8A22209F721F219C.jpg)
+
+![赛事排名奖励](screenshots/5D92E1A5440929764F856722759CB898.jpg)
+
+![系统整体界面](screenshots/9A04AC9A3B24114A5FB08ECB6732DD39.jpg)
+
+![后台管理](screenshots/DE07B42F7315FB5A02D68DBA3FB9E954.jpg)
+
+![更多功能展示](screenshots/E321CA2122D1DFD5E409E43D2210225A.jpg)
+
+---
+
+## 🚀 快速开始
+
+
+git clone https://github.com/niubideren111/Texas-Holdem-Poker-Club-Source.git
+cd Texas-Holdem-Poker-Club-Source
+
+
+
 # 🃏 Poker Club System | Texas Hold'em Poker Source Code | 扑克俱乐部源码 | 撲克俱樂部源碼|德州扑克
 ♠️ Poker Club System (GG Club Style) | Texas Hold'em Club Platform  
 
