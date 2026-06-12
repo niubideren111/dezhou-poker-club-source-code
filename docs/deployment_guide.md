@@ -1,5 +1,5 @@
 # 德州扑克源码部署指南
-## Texas Hold'em Source Code Deployment Guide
+## dezhou-poker-club-source-code
 
 本指南帮助你从零开始部署德州扑克完整源码（客户端 + 服务端 + 数据库）。适用于 Ubuntu 20.04 / CentOS 7+ 环境。
 
@@ -305,9 +305,8 @@ Q6: 支持 HTTPS/WSS 吗？
 联系支持
 如遇到部署问题，可通过以下方式联系我们：
 
-联系方式	账号
-Telegram	@alibabama401
-Email	ttpoker733@gmail.com
+ - **Telegram**: @fox_lovemyself
+- **Email**: zyue02561@gmail.com
 请在联系时附上错误日志和服务器环境信息。
 
 *最后更新：2026-06-12 | 版本：v1.0*
