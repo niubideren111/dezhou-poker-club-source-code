@@ -1,9 +1,15 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
-# 德州扑克俱乐部源码｜俱乐部、联盟与私人牌局｜Unity + C++
+# 德州俱乐部源码｜Unity、C++ 与联盟系统资料
 
-**从创建俱乐部、邀请牌友，到自定义牌局和多人对战，把大厅、牌桌、社交互动与账户管理连接起来。**
+> 中文简体 · 中文繁體 · English 多语言产品与源码资料
 
-本项目展示竖版德州扑克俱乐部游戏及其开发资料，面向关注**德州源码、德州扑克源码、俱乐部系统和联盟系统**的开发者、产品团队与项目客户。客户端采用 Unity + Lua，服务端采用 C++。
+[简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [产品页面](https://niubideren111.github.io/dezhou-poker-club-source-code/zh-cn/)
+
+面向俱乐部与联盟场景的德州扑克项目，展示会员入口、牌桌对局和俱乐部相关界面。公开文件包括 C++ 服务端片段、Tars 接口、构建脚本与 Lua 开发文档，可用于理解 Unity 与服务器项目的协作方式。
+
+**德州俱乐部源码 · 德州扑克俱乐部源码 · 德州联盟源码 · Unity德州源码**
+
+
 
 **Texas Hold’em Poker Club Source Code** — Unity + Lua client, C++ server, private tables, poker clubs and alliances.
 
