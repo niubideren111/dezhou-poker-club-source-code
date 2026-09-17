@@ -6,6 +6,32 @@ A poker club project reference covering member entry, club tables and alliance-o
 
 **Texas Holdem club source code · poker club source code · Unity poker source code · C++ poker server**
 
+
+## Main Features
+
+### Clubs & Alliances: Organizing Games Around Regular Players
+
+Clubs provide players with a shared game entry point, while alliances connect multiple clubs. The project presents a product structure spanning player organization, game entry, and social competition.
+
+- **Club Entry**: Create clubs, organize members, and club games.
+- **Alliance System**: Organize related game scenarios around multiple clubs.
+- **Friends' Games & Private Games**: Create independent tables for familiar players.
+- **Custom Games**: Set game name, blinds, player count, and start conditions.
+
+### Tables & Gameplay: From Creating a Game to Actual Play
+
+The portrait interface is designed around mobile operation, centrally displaying seats, hole cards, community cards, chips, and action areas. The game creation page provides entry points for Classic Texas Hold'em, AoF, Short Deck, Omaha, and Big Pineapple, among other variants.
+
+| Functional Area | Product Content |
+|---|---|
+| Create Game | Game name, gameplay selection, blinds and player count settings |
+| In-Game Actions | Seating, viewing cards, and turn actions |
+| Social Interaction | Table text chat, voice interaction |
+| Personal Center | Player profile, system avatars, and account information |
+| Property Security | Property security password setup, re-confirmation, and verification |
+| Shop Page | Gold coins, gold shell coins tiers, and recharge information display |
+
+
 ## What this repository presents
 
 ### Club and alliance product
