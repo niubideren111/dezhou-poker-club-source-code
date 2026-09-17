@@ -1,7 +1,7 @@
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+
 # 德州俱乐部源码｜Unity、C++ 与联盟系统资料
 
-> 中文简体 · 中文繁體 · English 多语言产品与源码资料
+
 
 [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [产品页面](https://niubideren111.github.io/dezhou-poker-club-source-code/zh-cn/)
 
