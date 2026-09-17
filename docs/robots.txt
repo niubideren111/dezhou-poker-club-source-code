@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://niubideren111.github.io/dezhou-poker-club-source-code/sitemap.xml
