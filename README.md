@@ -1,148 +1,117 @@
+# 德州扑克俱乐部源码｜Unity、C++、Lua 与 Tars 服务资料
 
-# 德州俱乐部源码｜Unity、C++ 与联盟系统资料
-
-
+> 中文简体 · 中文繁體 · English 多语言产品与源码资料
 
 [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [English](README.en.md) · [产品页面](https://niubideren111.github.io/dezhou-poker-club-source-code/zh-cn/)
 
 面向俱乐部与联盟场景的德州扑克项目，展示会员入口、牌桌对局和俱乐部相关界面。公开文件包括 C++ 服务端片段、Tars 接口、构建脚本与 Lua 开发文档，可用于理解 Unity 与服务器项目的协作方式。
 
-**德州俱乐部源码 · 德州扑克俱乐部源码 · 德州联盟源码 · Unity德州源码**
+**德州源码 · 德州扑克源码 · 德州俱乐部源码 · 德州扑克俱乐部 · Unity 德州源码**
 
+## 项目亮点
 
-
-**Texas Hold’em Poker Club Source Code** — Unity + Lua client, C++ server, private tables, poker clubs and alliances.
-
-[产品截图](#产品截图) · [主要功能](#主要功能) · [公开代码](#公开源码与开发文档) · [咨询项目](https://t.me/fox_lovemyself)
-
-## 产品截图
-
-
-
-<table>
-<tr><th>大厅与玩法入口</th><th>多人牌桌</th><th>个人中心与账户</th></tr>
-<tr>
-<td><a href="docs/assets/seo/dezhou-poker-club-source-code-03.jpg"><img src="docs/assets/seo/dezhou-poker-club-source-code-03.jpg" width="250" alt="德州扑克俱乐部源码：竖版大厅与玩法入口"></a></td>
-<td><a href="docs/assets/seo/dezhou-poker-club-source-code-02.jpg"><img src="docs/assets/seo/dezhou-poker-club-source-code-02.jpg" width="250" alt="德州俱乐部游戏：多人牌桌与对局界面"></a></td>
-<td><a href="docs/assets/seo/dezhou-poker-club-source-code-01.jpg"><img src="docs/assets/seo/dezhou-poker-club-source-code-01.jpg" width="250" alt="德州游戏源码：个人资料与账户界面"></a></td>
-</tr>
-</table>
+- **德州俱乐部业务资料**：API 文档覆盖创建俱乐部、加入俱乐部和创建俱乐部牌桌等流程。
+- **多人牌桌产品展示**：提供俱乐部大厅、账户界面和多人牌桌截图，便于了解产品形态。
+- **C++ 分布式服务片段**：公开活动、登录、订单和外部回调等代码资料。
+- **Tars 接口定义**：通过 `ActivityServant.tars` 等文件展示服务接口组织方式。
+- **Unity 与 Lua 开发资料**：包含 Unity 相关文件、Lua 编码规范和客户端热更新流程。
+- **服务端构建入口**：提供公共库、游戏模块和服务模块的 Shell 构建脚本。
+- **多语言文档页面**：提供简体中文、繁體中文、English README 和 GitHub Pages 图文页面。
 
 ## 主要功能
 
-### 俱乐部与联盟：围绕固定牌友组织游戏
-
-俱乐部为玩家提供共同的游戏入口，联盟连接多个俱乐部。项目呈现了从玩家组织、牌局入口到社交对战的产品结构。
-
-- **俱乐部入口**：创建俱乐部、组织成员与俱乐部牌局。
-- **联盟系统**：围绕多个俱乐部组织关联的游戏场景。
-- **朋友局与私人局**：为熟悉的牌友创建独立牌桌。
-- **自定义牌局**：设置牌局名称、盲注、人数和开局条件。
-
-### 牌桌与玩法：从创建牌局到实际对局
-
-竖版界面围绕手机操作设计，集中展示座位、手牌、公共牌、筹码和操作区域。创建牌局页面提供经典德州、AoF、短牌、奥马哈和大菠萝等玩法入口。
-
-| 功能区域 | 产品内容 |
+| 功能模块 | 仓库中的公开资料 |
 |---|---|
-| 创建牌局 | 牌局名称、玩法选择、盲注与人数设置 |
-| 对局操作 | 入座、看牌和回合操作 |
-| 社交互动 | 牌桌文字聊天、语音互动 |
-| 个人中心 | 玩家资料、系统头像和账户信息 |
-| 财产安全 | 财产安全密码设置、再次确认与验证 |
-| 商城页面 | 金币、金贝币档位与充值信息展示 |
-
-### 移动端与五语言：适配不同地区的使用习惯
-
-客户端工程面向 **Android 与 iOS**，提供以下五种语言资源：
-
-| 语言 | 展示名称 |
-|---|---|
-| 简体中文 | 简体中文 |
-| 繁体中文 | 繁體中文 |
-| 英文 | English |
-| 韩文 | 한국어 |
-| 马来文 | Bahasa Melayu |
-
-文字资源与界面图片共同参与语言切换，覆盖大厅、创建牌局、账户提示和充值页面等产品区域。扩展语言时，需要同时维护译文、字库、字体及带文字的图片资源。
-
-## 玩家体验与项目价值
-
-**对玩家而言**，重点是找到熟悉的牌友、快速进入牌局、清楚地完成操作。俱乐部与朋友局提供社交入口，自定义规则提供不同的牌桌体验，个人中心与安全密码承接账户管理。
-
-**对开发与产品团队而言**，重点是理解业务如何连接：客户端如何组织页面与事件，服务端如何处理登录和异步回调，接口如何定义，资源如何打包与更新。本仓库同时提供产品截图与公开技术资料，便于从界面体验进一步了解代码结构。
+| 俱乐部创建与加入 | API 文档中的 `create_club`、`join_club` 请求与响应示例 |
+| 俱乐部牌桌 | `create_club_table` 接口资料及多人牌桌产品截图 |
+| 登录与用户状态 | `AsyncLoginCallback`、用户查询、登出和状态回调代码片段 |
+| 活动与奖励 | `ActivityServant.tars`、`ActivityServer.h`、宝箱奖励相关文件 |
+| 订单与商品 | 订单创建、更新和商品兑换配置接口代码 |
+| 比赛资料 | API 文档包含 SNG、MTT 列表与报名示例 |
+| 构建与清理 | `all_build.sh`、`build_servant.sh`、`build_comm.sh`、`build_clean.sh` |
+| 热更新与规范 | 客户端热更新流程及 Lua 编码规范文档 |
 
 ## 技术组成
 
-| 层级 | 技术与职责 |
+| 层级 | 技术与资料 |
 |---|---|
-| 客户端 | Unity：场景、UI、平台构建与资源加载 |
-| 业务脚本 | Lua / XLua：页面行为、事件与业务交互 |
-| 服务端 | C++：服务器业务代码与异步回调 |
-| 服务接口 | Tars：服务与请求响应结构定义 |
-| 资源更新 | AssetBundle 与 Lua 更新流程 |
-| 构建协作 | Shell 构建脚本、Lua 编码规范与开发文档 |
+| 客户端 | Unity 场景/组件资料、C# 与 Lua 相关文件 |
+| 脚本层 | Lua 业务脚本、Lua 编码规范与热更新流程 |
+| 服务端 | C++ 活动、登录、订单、路由及异步回调片段 |
+| RPC 接口 | Tars 服务定义与回调接口 |
+| 协议与 API | 俱乐部、牌桌、比赛和后台接口示例 |
+| 构建工具 | Shell 脚本、模块化编译和清理入口 |
 
-## 公开源码与开发文档
+公开资料呈现了 Unity/Lua 客户端、登录及业务接口、Tars/C++ 服务之间的协作关系。以上功能描述的是仓库中可见的产品和文档范围；完整构建、部署和运行仍需核对依赖、资源、配置与未公开模块。
 
-**本仓库公开代码片段、接口、构建脚本、文档和产品截图。** 完整客户端、服务端、数据库及部署资料的交付清单通过项目联系方式沟通。
+## 项目重点
 
-| 公开文件 | 用途 |
+### 俱乐部与联盟定位
+
+聚焦社交牌桌和俱乐部产品组织，区别于金币大厅和单独的锦标赛项目。
+
+### 服务接口与回调
+
+通过 ActivityServant.tars 和 external 下的异步回调文件查看接口组织方式。
+
+### 构建与团队协作
+
+提供基础库、游戏动态库等构建脚本，以及 Lua 编码和热更新相关文档。
+
+## 资料阅读与核对方式
+
+1. **先确认产品形态**：依次查看截图和图注，确认产品类型与可见功能流程。
+2. **再核对文件证据**：直接打开下方列出的源码或文档，不只依赖功能描述。
+3. **检查可构建范围**：确认准备运行的部分是否具备依赖、资源、配置和启动脚本。
+4. **确认授权**：阅读仓库许可；商业素材及完整工程交付应另行取得书面授权。
+
+## 产品截图
+
+![德州俱乐部项目个人资料与账户界面](docs/assets/seo/dezhou-poker-club-source-code-01.jpg)
+
+![德州俱乐部多人牌桌界面](docs/assets/seo/dezhou-poker-club-source-code-02.jpg)
+
+![德州俱乐部大厅与玩法入口](docs/assets/seo/dezhou-poker-club-source-code-03.jpg)
+
+## 公开源码与资料
+
+| 文件 | 说明 |
 |---|---|
-| [ActivityServant.tars](ActivityServant.tars) | 阅读活动服务接口定义 |
-| [external/AsyncLoginCallback.cpp](external/AsyncLoginCallback.cpp) | 阅读登录异步回调代码 |
-| [external/AsyncGetUserCallback.cpp](external/AsyncGetUserCallback.cpp) | 阅读用户信息异步回调代码 |
-| [all_build.sh](all_build.sh) | 了解服务器构建入口 |
-| [build_comm.sh](build_comm.sh) | 了解基础库编译流程 |
-| [build_servant.sh](build_servant.sh) | 了解服务器编译流程 |
-| [build_dz.sh](build_dz.sh) | 了解游戏动态库编译流程 |
-| [Lua 编码规范](Lua编码规范.docx) | 阅读业务脚本开发约定 |
-| [热更新流程](热更新流程.docx) | 阅读客户端资源更新流程 |
+| [ActivityServant.tars](ActivityServant.tars) | 活动服务接口定义 |
+| [external/AsyncLoginCallback.cpp](external/AsyncLoginCallback.cpp) | 登录异步回调片段 |
+| [all_build.sh](all_build.sh) | 服务端构建脚本入口 |
+| [build_comm.sh](build_comm.sh) | 基础库构建脚本 |
+| [热更新流程.docx](%E7%83%AD%E6%9B%B4%E6%96%B0%E6%B5%81%E7%A8%8B.docx) | 热更新流程文档 |
+
+## 开始阅读
 
 ```bash
 git clone https://github.com/niubideren111/dezhou-poker-club-source-code.git
 cd dezhou-poker-club-source-code
 ```
 
-建议阅读顺序：**产品截图 → 主要功能 → Tars 接口 → C++ 回调 → 构建脚本 → 热更新文档**。
-
 ## 常见问题
 
-### 这个项目更适合什么场景？
+### 与其他德州项目有什么区别？
 
-侧重俱乐部、联盟、朋友局和自定义牌桌，适合研究或开发以牌友关系为核心的社交扑克产品。
+本仓库重点是俱乐部、联盟及社交牌桌；大厅玩法和独立赛事展示分别由其他项目承载。
 
-### 支持 Android 和 iOS 吗？
+### 从哪个文件开始了解服务器？
 
-客户端工程包含两种平台的适配。Android 使用对应 Unity Android 构建环境；iOS 出包需要 macOS、Xcode 和签名配置。
+先查看 ActivityServant.tars 的接口，再阅读 external 目录中的异步登录回调与构建脚本。
 
-### 可以直接下载后运行完整游戏吗？
+## 后续资料完善方向
 
-公开仓库用于产品展示和代码阅读。运行完整游戏还需要完整客户端、服务端、数据库、配置及依赖环境；项目演示和交付清单请联系下方账号。
+按真实服务划分补充登录、大厅、俱乐部、联盟和游戏服务的依赖图；展示可公开的协议示例，不上传生产连接配置。 后续更新还应加入版本化依赖清单、经过验证的构建或导入步骤、简明架构/产品流程图，以及能对应真实文件变化的版本记录。大型授权资源可放入 GitHub Releases 并提供校验值，不能提交密钥、生产地址或用户数据。
 
-### 商城页面是否代表已接入自动到账？
+## 相关项目
 
-商城档位、金额传递和支付说明属于客户端页面功能。自动到账需要服务端订单、支付渠道和到账校验联调，验收时应单独检查。
+- [Texas-Hold-em-source-code](https://github.com/niubideren111/Texas-Hold-em-source-code)
+- [Texas-Hold-em-Tournament-Source-Code](https://github.com/niubideren111/Texas-Hold-em-Tournament-Source-Code)
 
-### 如何了解 MTT、SNG 或其他德州项目？
+## 资料范围与许可
 
-请分别查看下方私人局和锦标赛项目，按各自的功能说明和演示评估。不同工程的玩法与交付范围分别说明。
+公开内容包括服务端片段、构建脚本、开发文档及产品截图；完整客户端、服务端与数据库的交付内容通过项目联系方式沟通。 公开内容以实际文件、依赖和许可为准，不承诺搜索排名、直接上线或固定性能结果。
 
-## 项目咨询与演示
-
-想进一步了解实际牌桌、俱乐部入口、多语言页面或源码交付范围，可通过以下方式联系：
-
-- **Telegram**：[fox_lovemyself](https://t.me/fox_lovemyself)
-- **Email**：[zyue02561@gmail.com](mailto:zyue02561@gmail.com)
-- **GitHub**：[德州扑克俱乐部源码](https://github.com/niubideren111/dezhou-poker-club-source-code)
-
-咨询时可说明关注的平台、玩法、语言以及需要了解的客户端、服务端或部署部分，便于围绕具体需求展示项目。
-
-## 相关德州项目
-
-- [德州私人局与朋友局源码](https://github.com/niubideren111/Texas-Hold-em-source-code)
-- [德州锦标赛源码](https://github.com/niubideren111/Texas-Hold-em-Tournament-Source-Code)
-
-## 使用与授权
-
-公开文件的使用以仓库现有 [LICENSE](LICENSE) 和 [License.md](License.md) 为准。完整工程、美术及商业交付的授权范围以交付约定为准。
+- Telegram: [@fox_lovemyself](https://t.me/fox_lovemyself)
+- GitHub: [dezhou-poker-club-source-code](https://github.com/niubideren111/dezhou-poker-club-source-code)

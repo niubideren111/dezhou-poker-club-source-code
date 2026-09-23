@@ -6,31 +6,41 @@ A poker club project reference covering member entry, club tables and alliance-o
 
 **Texas Holdem club source code · poker club source code · Unity poker source code · C++ poker server**
 
+## Project highlights
 
-## Main Features
+- **Poker club business references:** API documentation covers club creation, club joining and club-table creation.
+- **Multiplayer product screens:** club lobby, account and multiplayer table screenshots illustrate the product experience.
+- **C++ distributed-service excerpts:** public activity, login, order and external callback materials.
+- **Tars interface definitions:** files such as `ActivityServant.tars` show service boundary organization.
+- **Unity and Lua workflow:** Unity-related files, Lua coding guidance and a client hot-update document.
+- **Server build entry points:** Shell scripts for common libraries, game modules and service modules.
+- **Multilingual documentation:** Simplified Chinese, Traditional Chinese and English READMEs and Pages content.
 
-### Clubs & Alliances: Organizing Games Around Regular Players
+## Main features
 
-Clubs provide players with a shared game entry point, while alliances connect multiple clubs. The project presents a product structure spanning player organization, game entry, and social competition.
-
-- **Club Entry**: Create clubs, organize members, and club games.
-- **Alliance System**: Organize related game scenarios around multiple clubs.
-- **Friends' Games & Private Games**: Create independent tables for familiar players.
-- **Custom Games**: Set game name, blinds, player count, and start conditions.
-
-### Tables & Gameplay: From Creating a Game to Actual Play
-
-The portrait interface is designed around mobile operation, centrally displaying seats, hole cards, community cards, chips, and action areas. The game creation page provides entry points for Classic Texas Hold'em, AoF, Short Deck, Omaha, and Big Pineapple, among other variants.
-
-| Functional Area | Product Content |
+| Area | Public repository material |
 |---|---|
-| Create Game | Game name, gameplay selection, blinds and player count settings |
-| In-Game Actions | Seating, viewing cards, and turn actions |
-| Social Interaction | Table text chat, voice interaction |
-| Personal Center | Player profile, system avatars, and account information |
-| Property Security | Property security password setup, re-confirmation, and verification |
-| Shop Page | Gold coins, gold shell coins tiers, and recharge information display |
+| Create and join clubs | `create_club` and `join_club` request/response examples in the API documentation |
+| Club tables | `create_club_table` interface material and multiplayer table screenshots |
+| Login and user state | Async login, user lookup, logout and state callback excerpts |
+| Activities and rewards | `ActivityServant.tars`, `ActivityServer.h` and reward-box files |
+| Orders and goods | Order creation/update and goods-exchange interface code |
+| Tournament references | SNG and MTT listing and registration examples in the API documentation |
+| Build and cleanup | `all_build.sh`, `build_servant.sh`, `build_comm.sh`, `build_clean.sh` |
+| Hot update and standards | Client hot-update workflow and Lua coding guide |
 
+## Technical components
+
+| Layer | Technology and material |
+|---|---|
+| Client | Unity scene/component material plus C# and Lua-related files |
+| Script layer | Lua business scripts, coding guidance and hot-update workflow |
+| Server | C++ activity, login, order, routing and asynchronous callback excerpts |
+| RPC interfaces | Tars service definitions and callback interfaces |
+| Protocol and API | Club, table, tournament and administration examples |
+| Build tools | Shell scripts and modular build/cleanup entry points |
+
+The public material illustrates cooperation between a Unity/Lua client, login and business interfaces, and Tars/C++ services. These features describe visible product and documentation scope; verify dependencies, assets, configuration and unpublished modules before attempting a complete build or deployment.
 
 ## What this repository presents
 
