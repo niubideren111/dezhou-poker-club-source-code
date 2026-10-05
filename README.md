@@ -1,4 +1,4 @@
-# 德州扑克俱乐部源码｜私人局、俱乐部与多人牌桌
+# 德州扑克俱乐部源码｜德州源码 |私人局、俱乐部与多人牌桌
 
 <p align="center"><strong>Texas Hold'em Poker Club Source Code</strong><br>Unity / Lua 客户端资料 · C++ / Tars 服务端片段 · 俱乐部牌桌 API · 构建与热更新文档</p>
 
